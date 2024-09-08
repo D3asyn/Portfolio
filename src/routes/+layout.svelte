@@ -25,9 +25,9 @@
 				<br />
 			</wrapper>
 		</body>
-		<div class="footer love">
+		<footer class="love">
 			<p>&copy; 2024 D3asny <br />All rights reserved.</p>
-		</div>
+		</footer>
 	</wrapper>
 </body>
 
@@ -39,9 +39,11 @@
 		font-family: Arial, sans-serif;
 	}
 	wrapper {
+		margin: 0;
+		padding: 0;
 		display: flex;
 		flex-direction: column;
-		min-height: 86.3vh;
+		min-height: 87.7vh;
 	}
 	:global(.base) {
 		background-color: #191724;
@@ -89,7 +91,8 @@
 
 	header {
 		width: 100%;
-		padding: 10px;
+		padding-bottom: 10px;
+		padding-top: 10px;
 		background-color: #eb6f92;
 	}
 
@@ -111,11 +114,14 @@
 		transition: color 0.2s ease-in-out;
 		border-radius: 0.5rem;
 	}
-
+	nav {
+		display: block;
+	}
 	a:hover {
 		color: #f6c177;
 	}
-	.footer {
+	footer {
+		width: 100%;
 		text-align: center;
 		background-color: #eb6f92;
 		color: #232136;
