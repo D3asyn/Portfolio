@@ -1,34 +1,34 @@
 <body>
-	<div class="wrapper">
-		<header class="header">
-			<nav class="header__nav">
-				<ul class="header__ul">
+	<wrapper>
+		<header>
+			<nav>
+				<ul>
 					<li><h1 class="typewriter">D3asyn</h1></li>
 					<li>
-						<a href="/Portfolio" class="header__a">Home</a>
+						<a href="/Portfolio">Home</a>
 					</li>
 					<li>
-						<a href="/Portfolio/about" class="header__a">About</a>
+						<a href="/Portfolio/about">About</a>
 					</li>
 					<li>
-						<a href="/Portfolio/projects" class="header__a">Projects</a>
+						<a href="/Portfolio/projects">Projects</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 		<body>
-			<div class="wrapper">
+			<wrapper>
 				<br />
 				<br />
 				<slot></slot>
 				<br />
 				<br />
-			</div>
+			</wrapper>
 		</body>
 		<div class="footer love">
 			<p>&copy; 2024 D3asny <br />All rights reserved.</p>
 		</div>
-	</div>
+	</wrapper>
 </body>
 
 <style>
@@ -38,7 +38,7 @@
 		padding: 0;
 		font-family: Arial, sans-serif;
 	}
-	:global(.wrapper) {
+	wrapper {
 		display: flex;
 		flex-direction: column;
 		min-height: 86.3vh;
@@ -77,23 +77,23 @@
 	}
 	.typewriter {
 		color: #191724;
-		border-right: #191724 2px solid; /* Cursor effect */
-		animation: blink 0.75s step-end infinite; /* Cursor blink */
+		border-right: #191724 2px solid;
+		animation: blink 0.75s step-end infinite;
 	}
 
 	@keyframes blink {
 		50% {
-			border-color: transparent; /* Blink effect */
+			border-color: transparent;
 		}
 	}
 
-	.header {
+	header {
 		width: 100%;
 		padding: 10px;
 		background-color: #eb6f92;
 	}
 
-	.header__ul {
+	ul {
 		margin: 0;
 		padding: 0;
 		display: flex;
@@ -101,12 +101,7 @@
 		list-style: none;
 	}
 
-	.header__h1 {
-		display: block;
-		padding-inline: 1px;
-		padding-block: 1px;
-	}
-	.header__a {
+	a {
 		display: block;
 		padding-inline: 20px;
 		padding-block: 25px;
@@ -117,7 +112,7 @@
 		border-radius: 0.5rem;
 	}
 
-	.header__a:hover {
+	a:hover {
 		color: #f6c177;
 	}
 	.footer {
