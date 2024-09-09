@@ -1,5 +1,12 @@
 <script>
-	let projects = [{ name: 'Elso Ora', date: '2024-09-05', link: 'https://d3asyn.github.io/95/' }];
+	let projects = [
+		{
+			name: 'Elso Ora',
+			desc: 'Elso orai gyakorlas',
+			date: '2024-09-05',
+			link: 'https://d3asyn.github.io/95/'
+		}
+	];
 
 	const colors = ['love', 'gold'];
 </script>
@@ -10,6 +17,7 @@
 			<tr>
 				<th>Project Name</th>
 				<th>Date</th>
+				<th>Description</th>
 				<th>Link</th>
 			</tr>
 		</thead>
@@ -18,7 +26,8 @@
 				<tr class={colors[index % colors.length]}>
 					<td>{project.name}</td>
 					<td>{project.date}</td>
-					<td><a href={project.link} target="_blank">View Project</a></td>
+					<td>{project.desc}</td>
+					<td style="text-align: center;"><a href={project.link} target="_blank">View</a></td>
 				</tr>
 			{/each}
 		</tbody>
@@ -28,7 +37,7 @@
 <style>
 	table {
 		border-collapse: collapse;
-		width: 60%;
+		width: 90%;
 		margin: auto;
 		background-color: #f6c177;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -45,13 +54,16 @@
 		background-color: #ebbcba;
 		color: #232136;
 	}
-
 	a {
-		color: #232136;
+		padding: 10px;
+		color: #eb6f92;
+		background: #191724;
 		text-decoration: none;
+		transition: color 0.2s ease-in-out;
+		border-radius: 0.5rem;
 	}
 
 	a:hover {
-		text-decoration: underline;
+		color: #f6c177;
 	}
 </style>

@@ -8,14 +8,14 @@
 
 <style>
 	.title {
-		margin-left: 100px;
-		margin-right: 100px;
+		margin-left: 5%;
+		margin-right: 5%;
 		text-align: center;
 		border-radius: 50px;
 	}
 	.story {
-		margin-left: 150px;
-		margin-right: 100px;
+		margin-left: 25%;
+		margin-right: 25%;
 		border-radius: 50px;
 	}
 	.rosebase {
