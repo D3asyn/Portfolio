@@ -11,7 +11,7 @@
 		margin: auto;
 	}
 	img {
-		width: 500px;
-		height: 500px;
+		width: 100%;
+		height: auto;
 	}
 </style>
