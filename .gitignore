@@ -2,7 +2,7 @@
 node_modules/
 
 #sveltekit
-.sveltekit/
+.svelte-kit/
 
 # Logs
 logs/
