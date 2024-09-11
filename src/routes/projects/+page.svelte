@@ -5,7 +5,13 @@
 			desc: 'Elso orai gyakorlas',
 			date: '2024-09-05',
 			link: 'https://d3asyn.github.io/95/'
-		}
+		},
+        {
+            name: 'Masodik Ora',
+            desc: 'Javascript addNumber()',
+            date: '2024-09-11',
+            link: 'https://d3asyn.github.io/911/'
+        }
 	];
 
 	const colors = ['love', 'gold'];
