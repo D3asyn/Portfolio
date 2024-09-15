@@ -17,6 +17,12 @@
 			desc: 'svelte orai project',
 			date: '2024-09-12',
 			link: 'https://d3asyn.github.io/svelteora/'
+		},
+		{
+			name: 'Node.js',
+			desc: 'node proba',
+			date: '2024-09-12',
+			link: 'https://github.com/D3asyn/node912'
 		}
 	];
 
