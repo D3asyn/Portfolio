@@ -28,7 +28,7 @@
 			name: 'Fetch',
 			desc: 'fetching json',
 			date: '2024-09-18',
-			link: 'https://github.com/D3asyn/918'
+			link: 'https://d3asyn.github.io/918/'
 		}
 	];
 
