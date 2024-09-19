@@ -23,6 +23,12 @@
 			desc: 'node proba',
 			date: '2024-09-12',
 			link: 'https://github.com/D3asyn/node912'
+		},
+		{
+			name: 'Fetch',
+			desc: 'fetching json',
+			date: '2024-09-18',
+			link: 'https://github.com/D3asyn/918'
 		}
 	];
 
