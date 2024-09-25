@@ -29,8 +29,13 @@
 			desc: 'fetching json',
 			date: '2024-09-18',
 			link: 'https://d3asyn.github.io/918/'
-		}
-	];
+		},
+		{
+			name: 'Json orarend',
+			desc: 'Svelte orarend json',
+			date: '2024-09-25',
+			link: 'https://d3asyn.github.io/orarendszft/'
+		}];
 
 	const colors = ['love', 'gold'];
 </script>
