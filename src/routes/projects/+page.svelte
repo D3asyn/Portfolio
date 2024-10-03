@@ -35,7 +35,14 @@
 			desc: 'Svelte orarend json',
 			date: '2024-09-25',
 			link: 'https://d3asyn.github.io/orarendszft/'
-		}];
+		},
+		{
+			name: 'Dvd',
+			desc: 'Bouncing dvd logo',
+			date: '2024-10-03',
+			link: 'https://d3asyn.github.io/dvd/'
+		}
+];
 
 	const colors = ['love', 'gold'];
 </script>
