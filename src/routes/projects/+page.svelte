@@ -31,6 +31,12 @@
 			link: 'https://d3asyn.github.io/918/'
 		},
 		{
+			name: 'Todo list',
+			desc: 'Todo list local storage',
+			date: '2024-09-19',
+			link: 'https://d3asyn.github.io/103/'
+		},
+		{
 			name: 'Json orarend',
 			desc: 'Svelte orarend json',
 			date: '2024-09-25',
