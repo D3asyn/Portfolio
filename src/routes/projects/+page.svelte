@@ -47,6 +47,12 @@
 			desc: 'Bouncing dvd logo',
 			date: '2024-10-03',
 			link: 'https://d3asyn.github.io/dvd/'
+		},
+		{
+			name: 'WheaterForecast',
+			desc: 'Long és Lat alapú időjárás',
+			date: '2024-10-09',
+			link: 'https://d3asyn.github.io/WeatherForecast/'
 		}
 ];
 
