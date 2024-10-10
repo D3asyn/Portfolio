@@ -53,6 +53,12 @@
 			desc: 'Long és Lat alapú időjárás',
 			date: '2024-10-09',
 			link: 'https://d3asyn.github.io/WeatherForecast/'
+		},
+		{
+			name: 'Calculator',
+			desc: 'szamitogep',
+			date: '2024-10-10',
+			link: 'https://d3asyn.github.io/Calculator/'
 		}
 ];
 
