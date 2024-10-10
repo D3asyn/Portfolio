@@ -56,7 +56,7 @@
 		},
 		{
 			name: 'Calculator',
-			desc: 'szamitogep',
+			desc: 'szamologép',
 			date: '2024-10-10',
 			link: 'https://d3asyn.github.io/Calculator/'
 		}
