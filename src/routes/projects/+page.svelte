@@ -59,6 +59,12 @@
 			desc: 'szamologép',
 			date: '2024-10-10',
 			link: 'https://d3asyn.github.io/Calculator/'
+		},
+		{
+			name: 'Sob-Calendar',
+			desc: 'Timetable',
+			date: '2024-11-13',
+			link: 'https://sob-calendar.vercel.app'
 		}
 ];
 
