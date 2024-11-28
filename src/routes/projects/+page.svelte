@@ -65,6 +65,12 @@
 			desc: 'Timetable',
 			date: '2024-11-13',
 			link: 'https://sob-calendar.vercel.app'
+		},
+		{
+			name: 'New Animation',
+			desc: 'Animation balls bouncing',
+			date: '2024-11-13',
+			link: 'https://github.com/D3asyn/animationsvelte'
 		}
 ];
 
