@@ -72,64 +72,82 @@
 			date: '2024-11-13',
 			link: 'https://github.com/D3asyn/animationsvelte'
 		}
-];
+	];
 
 	const colors = ['love', 'gold'];
 </script>
 
-<div class="table">
-	<table>
-		<thead>
-			<tr>
-				<th>Project Name</th>
-				<th>Date</th>
-				<th>Description</th>
-				<th>Link</th>
-			</tr>
-		</thead>
-		<tbody>
-			{#each projects as project, index}
-				<tr class={colors[index % colors.length]}>
-					<td>{project.name}</td>
-					<td>{project.date}</td>
-					<td>{project.desc}</td>
-					<td style="text-align: center;"><a href={project.link} target="_blank">View</a></td>
-				</tr>
-			{/each}
-		</tbody>
-	</table>
+<div class="title">
+	<h1>My Projects</h1>
 </div>
 
-<style>
-	table {
-		border-collapse: collapse;
-		width: 90%;
-		margin: auto;
-		background-color: #f6c177;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	}
+<table class="styled-table">
+	<thead class="love">
+		<tr>
+			<th>Project Name</th>
+			<th>Description</th>
+			<th>Date</th>
+			<th>Link</th>
+		</tr>
+	</thead>
+	<tbody>
+		{#each projects as project}
+			<tr>
+				<td>{project.name}</td>
+				<td>{project.desc}</td>
+				<td>{project.date}</td>
+				<td><a href={project.link} target="_blank">View Project</a></td>
+			</tr>
+		{/each}
+	</tbody>
+</table>
 
-	th,
-	td {
-		padding: 12px;
-		text-align: left;
-		border-bottom: 1px solid #3e8fb0;
+<style>
+	.title h1 {
+		text-align: center;
+		color: #f6c177;
+		margin-bottom: 20px;
 	}
 
 	th {
 		background-color: #ebbcba;
-		color: #232136;
 	}
+
+	.styled-table {
+		width: 90%;
+		margin: 0 auto;
+		border-collapse: collapse;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		background-color: #191724;
+		color: #ebbcba;
+	}
+
+	.styled-table th,
+	.styled-table td {
+		padding: 12px;
+		text-align: left;
+		border: 1px solid #ddd;
+	}
+
+	.styled-table th {
+		background-color: #ebbcba;
+		color: black;
+	}
+
+	.styled-table tr:nth-child(even) {
+		background-color: #2a2a2a;
+	}
+
+	.styled-table tr:hover {
+		background-color: #444;
+	}
+
 	a {
-		padding: 10px;
-		color: #eb6f92;
-		background: #191724;
+		color: #f6c177;
 		text-decoration: none;
-		transition: color 0.2s ease-in-out;
-		border-radius: 0.5rem;
 	}
 
 	a:hover {
-		color: #f6c177;
+		text-decoration: underline;
 	}
 </style>
