@@ -69,8 +69,14 @@
 		{
 			name: 'New Animation',
 			desc: 'Animation balls bouncing',
-			date: '2024-11-13',
+			date: '2024-12-5',
 			link: 'https://github.com/D3asyn/animationsvelte'
+		},
+		{
+			name: 'Minesweeper',
+			desc: 'Minweeper game',
+			date: '2024-12-18',
+			link: 'https://d3asyn.github.io/minesweeper/'
 		}
 	];
 
