@@ -77,6 +77,12 @@
 			desc: 'Minweeper game',
 			date: '2024-12-18',
 			link: 'https://d3asyn.github.io/minesweeper/'
+		},
+		{
+			name: 'Calendar',
+			desc: 'WeeklyCalendar',
+			date: '2025-3-05',
+			link: 'https://calendar-gamma-eight.vercel.app/'
 		}
 	];
 
