@@ -82,7 +82,13 @@
 			name: 'Calendar',
 			desc: 'WeeklyCalendar',
 			date: '2025-3-05',
-			link: 'https://calendar-gamma-eight.vercel.app/'
+			link: 'https://github.com/D3asyn/calendar'
+		},
+		{
+			name: 'AuthAndCrud',
+			desc: 'AuthAndCrud',
+			date: '2025-3-12',
+			link: 'https://auth-and-crud-two.vercel.app'
 		}
 	];
 
