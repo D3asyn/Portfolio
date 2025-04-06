@@ -64,7 +64,7 @@
 			name: 'New Animation',
 			desc: 'Animation balls bouncing',
 			date: '2024-12-5',
-			link: 'https://d3asynanimation.netlify.app/'
+			link: 'https://animationd3.netlify.app/'
 		},
 		{
 			name: 'Minesweeper',
