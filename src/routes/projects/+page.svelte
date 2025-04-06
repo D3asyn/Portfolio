@@ -61,16 +61,10 @@
 			link: 'https://d3asyn.github.io/Calculator/'
 		},
 		{
-			name: 'Sob-Calendar',
-			desc: 'Timetable',
-			date: '2024-11-13',
-			link: 'https://sob-calendar.vercel.app'
-		},
-		{
 			name: 'New Animation',
 			desc: 'Animation balls bouncing',
 			date: '2024-12-5',
-			link: 'https://github.com/D3asyn/animationsvelte'
+			link: 'https://d3asynanimation.netlify.app/'
 		},
 		{
 			name: 'Minesweeper',
@@ -82,13 +76,13 @@
 			name: 'Calendar',
 			desc: 'WeeklyCalendar',
 			date: '2025-3-05',
-			link: 'https://github.com/D3asyn/calendar'
+			link: 'https://d3asyncalendar.netlify.app/'
 		},
 		{
 			name: 'AuthAndCrud',
 			desc: 'AuthAndCrud',
 			date: '2025-3-12',
-			link: 'https://auth-and-crud-two.vercel.app'
+			link: 'https://authandcrudd3asyn.netlify.app/profile/login'
 		}
 	];
 
