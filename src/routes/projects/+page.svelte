@@ -79,6 +79,12 @@
 			link: 'https://d3asyncalendar.netlify.app/'
 		},
 		{
+			name: "Nine men's morris",
+			desc: 'Malom',
+			date: '2025-3-06',
+			link: 'https://github.com/D3asyn/NIne'
+		},
+		{
 			name: 'AuthAndCrud',
 			desc: 'AuthAndCrud',
 			date: '2025-3-12',
